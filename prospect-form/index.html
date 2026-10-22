@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iBrand Africa — Prospect Discovery Form</title>
+<link rel="stylesheet" href="styles.css"></head><body>
+
+<section class="page dark cover">
+<div class="circle"></div><div class="tab"></div>
+<img class="logo" src="assets/logo.png" alt="iBrand Africa" style="left:16.4mm;top:21mm;width:61.9mm">
+<h1>PROSPECT<br>DISCOVERY FORM</h1>
+</section>
+
+<form id="prospect-form">
+<input type="text" name="hp_note" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<section class="page" id="p2">
+<div class="banner-wrap"><img class="banner" src="assets/banner.png" alt="iBrand Africa"><img class="ttl" src="assets/title.svg" alt="Prospect Discovery Form"></div>
+<div class="sec"><b>A</b>BUSINESS INFORMATION</div>
+<div class="row"><div class="f"><label>Business Name:</label><input type="text" name="businessName"></div></div>
+<div class="row"><div class="f"><label>Industry:</label><input type="text" name="industry"></div></div>
+<div class="row"><div class="f"><label>Contact Person:</label><input type="text" name="contactPerson"></div><div class="f"><label>Position/Role:</label><input type="text" name="position"></div></div>
+<div class="row"><div class="f"><label>Phone:</label><input type="text" name="phone"></div></div>
+<div class="row"><div class="f"><label>Email:</label><input type="text" name="email"></div></div>
+<div class="row"><div class="f"><label>Location:</label><input type="text" name="location"></div></div>
+<div class="row"><div class="f"><label>Website:</label><input type="text" name="website"></div></div>
+<div class="row"><div class="f"><label>Social Media Handles:</label><input type="text" name="socialHandles"></div></div>
+<div class="row"><div class="f"><label>Years in Business:</label><input type="text" name="yearsInBusiness"></div></div>
+<div class="sec"><b>B</b>UNDERSTANDING THE BUSINESS</div>
+<div class="q">1. What are your main products/services?</div><textarea name="productsServices" aria-label="Products and services"></textarea>
+<div class="q">2. Who is your primary target customer?</div><textarea name="targetCustomer" aria-label="Target customer"></textarea>
+<div class="q">3. What makes your business different from competitors?</div><textarea name="differentiators" aria-label="Differentiators"></textarea>
+<div class="q">4. What are your main business goals for the next 6–12 months?</div>
+<div class="cols" data-list="goals"></div>
+</section>
+
+<section class="page" id="p3">
+<div class="sec" style="margin-top:12mm"><b>C</b>BRAND &amp; MARKETING HEALTH CHECK</div>
+<div class="q" style="margin:4mm 0 3mm">Where do you currently have challenges?</div>
+<div class="cards" id="health"></div>
+<div class="q" style="margin-top:6mm">OTHER CHALLENGES</div>
+<div class="lines" role="group" aria-label="Other challenges">
+<input type="text" name="otherChallengesLine1" aria-label="Other challenges, line 1">
+<input type="text" name="otherChallengesLine2" aria-label="Other challenges, line 2">
+<input type="text" name="otherChallengesLine3" aria-label="Other challenges, line 3">
+</div>
+</section>
+
+<section class="page" id="p4">
+<div class="sec" style="margin-top:9mm"><b>D</b>WHAT ARE YOU CURRENTLY DOING?</div>
+<div class="q" style="margin-top:0">Which marketing activities are you currently using?</div>
+<div class="cols3" data-list="activities"></div>
+<div class="q" style="margin-top:6mm">Who currently handles your marketing?</div>
+<div data-list="handlers"></div>
+<div class="sec"><b>E</b>WHAT DO YOU NEED HELP WITH?</div>
+<div class="q" style="margin-top:0">Based on your current challenges, which areas would you like support with?</div>
+<div class="cols" style="grid-template-columns:100mm 1fr" data-list="help"></div>
+<div class="sec"><b>F</b>PRIORITY</div>
+<div class="q" style="margin-top:0">What is the biggest challenge your business needs to solve right now?</div>
+<div class="lines" role="group" aria-label="Biggest challenge">
+<input type="text" name="biggestChallengeLine1" aria-label="Biggest challenge, line 1">
+<input type="text" name="biggestChallengeLine2" aria-label="Biggest challenge, line 2">
+<input type="text" name="biggestChallengeLine3" aria-label="Biggest challenge, line 3">
+</div>
+</section>
+
+<section class="page" id="p5">
+<div class="q" style="margin-top:12mm">If this challenge were solved, what outcome would you most want?</div>
+<div data-list="outcome"></div>
+<div class="q" style="margin-top:6mm">How soon are you looking to address this?</div>
+<div data-list="timing"></div>
+<div class="sec"><b>G</b>BUDGET &amp; DECISION-MAKING</div>
+<div class="q" style="margin-top:0">Have you previously invested in branding/marketing/digital services?</div>
+<div data-list="invested"></div>
+<div class="q" style="margin-top:5mm">Estimated monthly/project budget:</div>
+<div class="cols3" data-list="budget"></div>
+<div class="q">Who is involved in making the final decision?</div><textarea name="decisionMakers" style="height:9mm" aria-label="Decision makers"></textarea>
+<div class="q" style="margin-top:7mm">When would you be available for a follow-up consultation?</div>
+<div class="lines" role="group" aria-label="Availability">
+<input type="text" name="availabilityLine1" aria-label="Availability, line 1">
+<input type="text" name="availabilityLine2" aria-label="Availability, line 2">
+</div>
+</section>
+
+<section class="page" id="p6">
+<div class="sec" style="margin-top:9mm"><b>H</b>iBRAND AFRICA — INTERNAL USE</div>
+<p class="note">This section should not necessarily be shown to the prospect</p>
+<div class="sub">PROSPECT ASSESSMENT</div>
+<div class="row"><div class="f"><label>Primary Need:</label><input type="text" name="primaryNeed"></div></div>
+<div class="row"><div class="f"><label>Secondary Need:</label><input type="text" name="secondaryNeed"></div></div>
+<div class="row"><div class="f"><label>Recommended Service:</label><input type="text" name="recommendedService"></div></div>
+<div class="row"><div class="f"><label>Potential Upsell:</label><input type="text" name="potentialUpsell"></div></div>
+<div class="row"><div class="f"><label>Estimated Deal Value: ₦</label><input type="text" name="estimatedDealValue"></div></div>
+<div class="sub">LEAD STATUS:</div>
+<div class="cols" style="grid-template-columns:90mm 1fr" data-list="status"></div>
+<div class="row" style="margin-top:8mm"><div class="f"><label>Next Action:</label><input type="text" name="nextAction"></div></div>
+<div class="row"><div class="f"><label>Follow-up Date:</label><input type="text" name="followUpDate"></div></div>
+<div class="row"><div class="f"><label>Assigned BD:</label><input type="text" name="assignedBD"></div></div>
+<div class="submit-area">
+<p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+<div class="submit-actions">
+<button type="reset" class="btn btn-ghost">Clear Form</button>
+<button type="submit" class="btn btn-primary">Submit Form</button>
+</div>
+</div>
+</section>
+</form>
+
+<section class="page dark">
+<img class="logo-c logo" src="assets/logo.png" alt="iBrand Africa">
+<div class="url">www.ibrandafrica.com</div>
+</section>
+
+<script src="script.js"></script>
+</body></html>
